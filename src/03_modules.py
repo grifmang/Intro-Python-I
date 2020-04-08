@@ -26,8 +26,9 @@ import os
 
 # Print the current process ID
 # YOUR CODE HERE
-print(str(os.geteuid()))
-print(str(os.getgid()))
+# Looks like it's only available for UNIX
+# print(os.geteuid())
+# print(os.getgid())
 
 # Print the current working directory (cwd):
 # YOUR CODE HERE
